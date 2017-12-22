@@ -18,6 +18,10 @@ platforms:
 
 suites:
   - name: default
+    driver:
+      vm_hostname: testmachine.com
+      network:
+      - ["private_network", {ip: "192.168.10.99"}]
     run_list:
       - recipe[dokuwiki::default]
     verifier:
