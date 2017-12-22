@@ -1,4 +1,5 @@
 # dokuwiki
 
-TODO: Enter the cookbook description here.
+Install dokuwiki with php7 and setup the environment for tha.
+
 
